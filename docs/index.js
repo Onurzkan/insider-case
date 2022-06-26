@@ -659,8 +659,6 @@ function updateLeagueTable() {
         "</td><td>" +
         Teams[i].Name +
         "</td><td>" +
-        Teams[i].Pts +
-        "</td><td>" +
         Teams[i].Played +
         "</td><td>" +
         Teams[i].Win +
@@ -674,6 +672,8 @@ function updateLeagueTable() {
         Teams[i].GoalsAgainst +
         "</td><td>" +
         Teams[i].GoalDifference +
+        "</td><td>" +
+        Teams[i].Pts +
         "</td></tr>"
     );
   }
