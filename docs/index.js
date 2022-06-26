@@ -516,12 +516,12 @@ function displayNextWeekMatches() {
   if (displayingWeek == 6) {
     appendSelectedWeekMatchesToFixtureTable(displayingWeek);
     $("li.week").html('<b id="weekValue">' + displayingWeek + ". Week</b>");
-    $("#weekNumber").html(displayingWeek);
+    $("#weekNumber").html(displayingWeek + ". Week");
   } else {
     displayingWeek++;
     appendSelectedWeekMatchesToFixtureTable(displayingWeek);
     $("li.week").html('<b id="weekValue">' + displayingWeek + ". Week</b>");
-    $("#weekNumber").html(displayingWeek);
+    $("#weekNumber").html(displayingWeek + ". Week");
   }
 }
 
@@ -531,12 +531,12 @@ function displayPreviousWeekMatches() {
   if (displayingWeek == 1) {
     appendSelectedWeekMatchesToFixtureTable(displayingWeek);
     $("li.week").html('<b id="weekValue">' + displayingWeek + ". Week</b>");
-    $("#weekNumber").html(displayingWeek);
+    $("#weekNumber").html(displayingWeek + ". Week");
   } else {
     displayingWeek--;
     appendSelectedWeekMatchesToFixtureTable(displayingWeek);
     $("li.week").html('<b id="weekValue">' + displayingWeek + ". Week</b>");
-    $("#weekNumber").html(displayingWeek);
+    $("#weekNumber").html(displayingWeek + ". Week");
   }
 }
 
