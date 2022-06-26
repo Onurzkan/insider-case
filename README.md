@@ -19,4 +19,4 @@ I hope i fullfilled the need because im so excited obout this opportunity and ev
 
 ---
 
-As a different recent project I published a data science project of ours as an article on medium with a friend : [Twitter Sentiment Analysis for Will Smith](https://medium.com/@onurozkan_/twitter-sentiment-analysis-for-will-smith-498938378cc7)
+As a different recent project, i published a data science project of ours as an article on medium with a friend : [Twitter Sentiment Analysis for Will Smith](https://medium.com/@onurozkan_/twitter-sentiment-analysis-for-will-smith-498938378cc7)
