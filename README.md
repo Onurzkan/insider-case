@@ -1,7 +1,7 @@
 ![insider](./docs/images/logo.webp)
 # Premier League Simulator for Insider
 
-You can access published github site via [Link](https://onurzkan.github.io/insider-case/)
+You can access published site via [Link](https://onurzkan.github.io/insider-case/)
 
 Insider, which i look up as a company that, comes from startup and have open minded look at the world we live in, i feel like this an opportunity which i can't let go to waste. From my perspective of job life *which is not much* i've seen the corporate and startup type jobs and from outside *(no pun intended:))* Insider is the best way to show my dedication of self-growth and give benefits to the company.In my opinion this case prooves the point that this is not an ordinary company .
 
@@ -12,6 +12,10 @@ Insider, which i look up as a company that, comes from startup and have open min
 - Coding is more of a good research than anything else in my opinion because the biggest dictionaary is at the tips of our fingers. But even though it is, i've seen so many people don't use it enough and cleverly.
 
 - At my in depth research i found some project that helped me guide my requriements and made me possible to advance it for handling this case.
+
+### About Languages Of The Project
+
+index.html and index.js is what makes this project. I used bootsrap, jquerry, js, css,html and node.js for this project. I am currently working with React/React Native for my thesis so this was a good polishment to my skils on these languages.
 
 I hope i fullfilled the need because im so excited obout this opportunity and everything i can offer to this company.
 
