@@ -201,6 +201,12 @@ function setMatchStatics(homeTeam, awayTeam, homeGoal, awayGoal) {
     awayTeam.Morale += 1;
   }
 
+  homeTeam.GoalsFor = homeGoal;
+  homeTeam.GoalsAgainst = awayGoal;
+
+  awayTeam.GoalsFor = awayGoal;
+  awayTeam.GoalsAgainst = homeGoal;
+
   homeTeam.GoalDifference += homeGoal - awayGoal;
   awayTeam.GoalDifference += awayGoal - homeGoal;
 
@@ -554,6 +560,8 @@ function startLeague() {
       Tie: 0,
       Pts: 0,
       Played: 0,
+      GoalsFor: 0,
+      GoalsAgainst: 0,
       GoalDifference: 0,
       Morale: 0,
       PredictionsOfChampionship: "%0",
@@ -571,6 +579,8 @@ function startLeague() {
       Tie: 0,
       Pts: 0,
       Played: 0,
+      GoalsFor: 0,
+      GoalsAgainst: 0,
       GoalDifference: 0,
       Morale: 0,
       PredictionsOfChampionship: "%0",
@@ -588,6 +598,8 @@ function startLeague() {
       Tie: 0,
       Pts: 0,
       Played: 0,
+      GoalsFor: 0,
+      GoalsAgainst: 0,
       GoalDifference: 0,
       Morale: 0,
       PredictionsOfChampionship: "%0",
@@ -605,6 +617,8 @@ function startLeague() {
       Tie: 0,
       Pts: 0,
       Played: 0,
+      GoalsFor: 0,
+      GoalsAgainst: 0,
       GoalDifference: 0,
       Morale: 0,
       PredictionsOfChampionship: "%0",
@@ -654,6 +668,10 @@ function updateLeagueTable() {
         Teams[i].Tie +
         "</td><td>" +
         Teams[i].Lose +
+        "</td><td>" +
+        Teams[i].GoalsFor +
+        "</td><td>" +
+        Teams[i].GoalsAgainst +
         "</td><td>" +
         Teams[i].GoalDifference +
         "</td></tr>"
