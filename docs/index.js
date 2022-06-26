@@ -408,9 +408,9 @@ function appendSelectedWeekMatchesToFixtureTable(week) {
           $("#fixturesTable").append(
             '<tr><td id="homeTeamUp">' +
               match.Home +
-              '</td><td><input class="form-control" type="number" id="homeGoalUp" value="' +
+              '</td><td><input min="0" class="form-control" type="number" id="homeGoalUp" value="' +
               match.HomeGoal +
-              '"></td><td>-</td><td><input class="form-control" id="awayGoalUp" type="number" value="' +
+              '"></td><td>-</td><td><input min="0" class="form-control" id="awayGoalUp" type="number" value="' +
               match.AwayGoal +
               '")"></td><td id="awayTeamUp">' +
               match.Away +
@@ -420,9 +420,9 @@ function appendSelectedWeekMatchesToFixtureTable(week) {
           $("#fixturesTable").append(
             '<tr><td <td id="homeTeamUp">' +
               match.Home +
-              '</td><td> <input class="form-control" type="number" id="homeGoalUp" value="' +
+              '</td><td> <input min="0" lass="form-control" type="number" id="homeGoalUp" value="' +
               match.HomeGoal +
-              '" ></td><td>-</td><td><input class="form-control" id="awayGoalUp" type="number" value="' +
+              '" ></td><td>-</td><td><input min="0" class="form-control" id="awayGoalUp" type="number" value="' +
               match.AwayGoal +
               '" ></td><td <td id="awayTeamUp">' +
               match.Away +
@@ -434,9 +434,9 @@ function appendSelectedWeekMatchesToFixtureTable(week) {
         $("#fixturesTable").append(
           '<tr><td id="homeTeamDown">' +
             match.Home +
-            '</td><td><input class="form-control" type="number" id="homeGoalDown" value="' +
+            '</td><td><input min="0" class="form-control" type="number" id="homeGoalDown" value="' +
             match.HomeGoal +
-            '"></td><td>-</td><td><input class="form-control" id="awayGoalDown" type="number" value="' +
+            '"></td><td>-</td><td><input min="0" class="form-control" id="awayGoalDown" type="number" value="' +
             match.AwayGoal +
             '")"></td><td id="awayTeamDown">' +
             match.Away +
